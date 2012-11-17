@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent">
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="@string/lastApp" android:layout_margin="10dp"></TextView>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:orientation="horizontal" android:padding="10dp" android:layout_margin="10dp">
+            <ImageView android:src="@drawable/icon" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/last_icon"></ImageView>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:layout_gravity="center" android:textSize="20sp" android:id="@+id/last_label"></TextView>
+        </LinearLayout>
+        <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/neverShow" android:layout_margin="10dp" android:id="@+id/cbx_never"></CheckBox>
+    </LinearLayout>
+	<Button android:text="@string/targetSetting" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_margin="10dp" android:id="@+id/btn_setting" android:layout_above="@+id/btn_finish"></Button>
+	<Button android:layout_height="wrap_content" android:layout_margin="10dp" android:text="@string/nextApp" android:layout_width="fill_parent" android:id="@+id/btn_next" android:layout_above="@+id/btn_setting"></Button>
+	<Button android:layout_height="wrap_content" android:text="@string/finishApp"
+		android:layout_width="fill_parent" android:layout_alignParentBottom="true" android:layout_margin="10dp" android:id="@+id/btn_finish"></Button>
+
+</RelativeLayout>

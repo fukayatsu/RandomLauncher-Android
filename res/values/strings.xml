@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Random Launcher</string>
+    <string name="lastApp">直前に起動したアプリ </string>
+    <string name="neverShow">今後このアプリを起動しない </string>
+    <string name="targetSetting">起動対象アプリ設定 </string>
+    <string name="finishApp">終了 </string>
+    <string name="nextApp">次のアプリを起動 </string>
+</resources>
